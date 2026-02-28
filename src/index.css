@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.filters button.active {
+  background: #7c3aed;
+  color: white;
+}
+
+li button {
+  background: #ef4444;
+}
+
+li button:hover {
+  background: #dc2626;
+}
+
+li {
+  transition: background 0.2s ease;
+}
+
+li:hover {
+  background: #f9fafb;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
